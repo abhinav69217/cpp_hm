@@ -1,15 +1,10 @@
-for (int i = 0; i < 4; i++)
-    {
-        for (int j = 0; j < 4; j++)
-        {
-            if (i > j)
-            {
-                cout << " ";
-            }
-            else
-            {
-                cout << "*";
-            }
-        }
-        cout << endl;
-    }
+int max = INT_MIN;
+
+    // for (auto x : A)
+    // {
+    //     if (x > max)
+    //     {
+    //         max = x;
+    //     }
+    // }
+    // cout << max << endl;

@@ -1,13 +1,35 @@
 #include<iostream>
 using namespace std;
 
+class DEMO{
+    static int count;
+    public:
+    DEMO(){
+        count++;
+    }
+    DEMO (int p){
+        count+=p;
+
+    }
+    void display(){
+        cout<<count;
+    }
+};
+int DEMO::count=0;
+
+
 int main()
 {
-    int arr[10]={0};
-    for (int i = 0; i < 10; i++)
-    {
-        cout<<arr[i];
-    }
+    DEMO obj;
+    DEMO obj1(8);
+    obj1.display();
+    obj.display();
 
-    return 0;
+}
+void MIN(){
+    int i=11;
+    cout<<i;
+    static int j=12;
+    j=j+1;
+    cout<<j;
 }

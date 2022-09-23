@@ -1,0 +1,1 @@
+Node *&head,Node *&tail, int d

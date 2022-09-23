@@ -18,8 +18,6 @@ int getMax(int arr[], int n)
     return max;
 }
 
-
-
 int getMin(int arr[], int n)
 {
 
@@ -34,10 +32,6 @@ int getMin(int arr[], int n)
     }
     return min;
 }
-
-
-
-
 
 int main()
 {
